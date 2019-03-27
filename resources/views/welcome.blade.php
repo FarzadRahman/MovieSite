@@ -191,7 +191,7 @@
         <!-- Movie Section End -->
 
         <!-- Movie Section Original -->
-        <div class="section section-padding movie-section">
+        <div class="section movie-section">
             <div class="container">
                 <div class="row" style="background-color: white;">
                     <div class="col-sm-8 col-xs-6">
