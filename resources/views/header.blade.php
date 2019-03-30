@@ -39,6 +39,10 @@
             position: absolute;
             width: 100%;
         }
+        html, body {
+            max-width: 100%;
+            overflow-x: hidden;
+        }
     </style>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
