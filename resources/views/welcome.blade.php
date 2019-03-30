@@ -73,7 +73,7 @@
         <div class="section section-padding movie-section">
             <div class="row" style="background-color: white;">
                 <div class="col-sm-8 col-xs-6">
-                    <div class="section-header" style="">
+                    <div class="" >
                         <h2 class="section-title"> <img src="{{url('public')}}/images/template/logo.png" alt="Site Logo">  <b style="color: red">PRIME</b></h2>
                     </div>
                 </div>
@@ -162,7 +162,7 @@
         <div class="section movie-section">
             <div class="row" style="background-color: white;">
                 <div class="col-sm-8 col-xs-6">
-                    <div class="section-header">
+                    <div class="">
                         <h2 class="section-title"> <img src="{{url('public')}}/images/template/logo.png" alt="Site Logo">  <b style="color: red">Originals</b></h2>
                     </div>
                 </div>
@@ -336,5 +336,7 @@
                 }
             }
         })
+
+
     </script>
 @endsection
