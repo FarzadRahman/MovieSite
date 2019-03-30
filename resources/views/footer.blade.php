@@ -7,7 +7,7 @@
                         <div class="widget about-widget">
                             <div class="widget-inner">
                                 <a class="footer-logo" href="index-2.html">
-                                    <img src="images/template/logo-footer.png" alt="Footer logo">
+                                    <img src="{{url('public')}}/images/template/logo-footer.png" alt="Footer logo">
                                 </a>
                                 <p class="about-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, ducimus, atque. Praesentium suscipit provident explicabo dignissimos nostrum numquam deserunt earum accusantium et fugit.</p>
                                 <div class="footer-social">
@@ -57,8 +57,8 @@
                         <div class="widget app-widget">
                             <h3 class="widget-title">BigShow Apps</h3>
                             <div class="widget-inner">
-                                <a class="google-play-download" href="#"><img src="images/icons/google-play.png" alt="Google Play Download"></a>
-                                <a class="apple-store-download" href="#"><img src="images/icons/app-store.png" alt="Apple Store Download"></a>
+                                <a class="google-play-download" href="#"><img src="{{url('public')}}/images/icons/google-play.png" alt="Google Play Download"></a>
+                                <a class="apple-store-download" href="#"><img src="{{url('public')}}/images/icons/app-store.png" alt="Apple Store Download"></a>
                             </div>
                         </div>
                     </div>

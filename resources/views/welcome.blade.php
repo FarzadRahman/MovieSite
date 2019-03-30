@@ -302,7 +302,7 @@
     <script src="{{url('public')}}/dist/owl.carousel.min.js"></script>
 
     <script>
-        $('.owl-carousel').owlCarousel({
+        $('.video-carousel').owlCarousel({
             loop:true,
             margin:10,
             nav:true,
@@ -320,7 +320,7 @@
         });
 
         $('.owl-carousel1').owlCarousel({
-            items:1,
+
             merge:true,
             loop:true,
             margin:10,
