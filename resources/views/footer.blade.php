@@ -87,11 +87,11 @@
 <!-- Script -->
 <script src="{{url('public')}}/assets/js/jquery.min.js"></script>
 <script src="{{url('public')}}/assets/js/bootstrap.min.js"></script>
-<script src="{{url('public')}}/assets/js/owl.carousel.js"></script>
+{{--<script src="{{url('public')}}/assets/js/owl.carousel.js"></script>--}}
 <script src="{{url('public')}}/assets/js/jquery.magnific-popup.min.js"></script>
 <script src="{{url('public')}}/assets/js/jquery.ajaxchimp.min.js"></script>
 {{--<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAmiJjq5DIg_K9fv6RE72OY__p9jz0YTMI"></script>--}}
 {{--<script src="assets/js/map.js"></script>--}}
-<script src="{{url('public')}}/assets/js/custom.js"></script>
 
+@yield('js')
 </body>

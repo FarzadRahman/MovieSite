@@ -14,8 +14,8 @@
     <!-- External CSS -->
     <link rel="stylesheet" href="{{url('public')}}/assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="{{url('public')}}/assets/css/font-awesome.min.css">
-    <link rel="stylesheet" href="{{url('public')}}/assets/css/owl.carousel.css">
-    <link rel="stylesheet" href="{{url('public')}}/assets/css/owl.transitions.css">
+    {{--<link rel="stylesheet" href="{{url('public')}}/assets/css/owl.carousel.css">--}}
+    {{--<link rel="stylesheet" href="{{url('public')}}/assets/css/owl.transitions.css">--}}
     <link rel="stylesheet" href="{{url('public')}}/assets/css/magnific-popup.css">
 
     <!-- Custom CSS -->
@@ -31,6 +31,8 @@
     <link rel="apple-touch-icon" sizes="72x72" href="{{url('public')}}/images/template/icon-72x72.png">
     <link rel="apple-touch-icon" sizes="114x114" href="{{url('public')}}/images/template/icon-114x114.png">
 
+
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -39,6 +41,8 @@
 
 
     <![endif]-->
+    @yield('css')
+
 
 
 </head>
