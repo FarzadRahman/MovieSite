@@ -27,11 +27,11 @@
             {{--</form>--}}
             <ul class="nav navbar-nav navbar-left">
                 <li><a href="#">Home</a></li>
-                <li><a href="#">tv</a></li>
-                <li><a href="#">movie</a></li>
-                <li><a href="#">news</a></li>
-                <li><a href="#">sports</a></li>
-                <li><a href="#">premium</a></li>
+                <li><a href="#">Tv</a></li>
+                <li><a href="#">Movie</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Sports</a></li>
+                <li><a href="#">Premium</a></li>
                 {{--<li class="dropdown">--}}
                     {{--<a href="movie-list.html">Movies</a>--}}
                     {{--<ul class="dropdown-menu">--}}
