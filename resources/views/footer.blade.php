@@ -7,7 +7,7 @@
                         <div class="widget about-widget">
                             <div class="widget-inner">
                                 <a class="footer-logo" href="index-2.html">
-                                    <img src="{{url('public')}}/images/template/logo-footer.png" alt="Footer logo">
+                                    <img src="{{url('public')}}/images/template/logo-footer.png" alt="Footer logo" style="width:200px">
                                 </a>
                                 <p class="about-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, ducimus, atque. Praesentium suscipit provident explicabo dignissimos nostrum numquam deserunt earum accusantium et fugit.</p>
                                 <div class="footer-social">
@@ -55,7 +55,7 @@
                             </div>
                         </div>
                         <div class="widget app-widget">
-                            <h3 class="widget-title">BigShow Apps</h3>
+
                             <div class="widget-inner">
                                 <a class="google-play-download" href="#"><img src="{{url('public')}}/images/icons/google-play.png" alt="Google Play Download"></a>
                                 <a class="apple-store-download" href="#"><img src="{{url('public')}}/images/icons/app-store.png" alt="Apple Store Download"></a>
@@ -77,7 +77,7 @@
                         </ul>
                     </div>
                     <div class="col-md-6 col-sm-5 col-xs-12 xs-text-center">
-                        <p class="copyright-text">&copy; 2017 <a href="index-2.html">BigShow</a>. All Rights Reserved</p>
+                        <p class="copyright-text">&copy; 2017 <a href="index-2.html">Golpochobi</a>. All Rights Reserved</p>
                     </div>
                 </div>
             </div>
@@ -90,6 +90,8 @@
 {{--<script src="{{url('public')}}/assets/js/owl.carousel.js"></script>--}}
 <script src="{{url('public')}}/assets/js/jquery.magnific-popup.min.js"></script>
 <script src="{{url('public')}}/assets/js/jquery.ajaxchimp.min.js"></script>
+{{--<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAmiJjq5DIg_K9fv6RE72OY__p9jz0YTMI"></script>--}}
+{{--<script src="assets/js/map.js"></script>--}}
 
 @yield('js')
 </body>

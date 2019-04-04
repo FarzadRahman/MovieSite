@@ -74,7 +74,7 @@
             <div class="row" style="background-color: white;">
                 <div class="col-sm-8 col-xs-6">
                     <div class="" >
-                        <h2 class="section-title"> <img src="{{url('public')}}/images/template/logo.png" alt="Site Logo">  <b style="color: red">PRIME</b></h2>
+                        <h2 class="section-title"> <img src="{{url('public')}}/images/template/logo.png" alt="Site Logo" style="width:200px">  <b style="color: red">PRIME</b></h2>
                     </div>
                 </div>
                 <div class="col-sm-4 col-xs-6">
@@ -163,7 +163,7 @@
             <div class="row" style="background-color: white;">
                 <div class="col-sm-8 col-xs-6">
                     <div class="">
-                        <h2 class="section-title"> <img src="{{url('public')}}/images/template/logo.png" alt="Site Logo">  <b style="color: red">Originals</b></h2>
+                        <h2 class="section-title"> <img src="{{url('public')}}/images/template/logo.png" alt="Site Logo" style="width:200px">  <b style="color: red">Originals</b></h2>
                     </div>
                 </div>
                 <div class="col-sm-4 col-xs-6">

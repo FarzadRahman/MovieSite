@@ -1,3 +1,55 @@
+<!-- The Modal -->
+<div class="modal" id="myModal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <h4 class="modal-title">Login / Register</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+
+            <!-- Modal body -->
+            <div class="modal-body">
+
+                <div class="row">
+                    <div class="form-group col-md-12">
+                        <label>MOBILE NUMBER *</label>
+                        <input type="text" class="form-control" placeholder="number">
+                    </div>
+
+                    <div class="form-group col-md-12">
+                        <label>PASSWORD *</label>
+                        <input type="password" class="form-control" placeholder="password">
+                    </div>
+
+                    <div class="form-group col-md-6">
+
+                        <a  class="btn btn-default btn-sm" style="color: black;background: white">Register</a>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label style="color: red;" class="pull-right"><a href="#">Forgot Password?</a></label>
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+            <!-- Modal footer -->
+            <div class="modal-footer">
+{{--                <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>--}}
+                <button type="button" class="btn btn-success btn-sm" >Login</button>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
 <!-- Main Header -->
 <nav class="navbar navbar-default">
     <div class="container-fluid">
@@ -11,7 +63,7 @@
                 <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand" href="index-2.html">
-                <img src="{{url('public')}}/images/template/logo.png" alt="Site Logo">
+                <img src="{{url('public')}}/images/template/logo.png" alt="Site Logo" style="width:200px">
             </a>
         </div>
 
@@ -32,6 +84,7 @@
                 <li><a href="#">News</a></li>
                 <li><a href="#">Sports</a></li>
                 <li><a href="#">Premium</a></li>
+                <li><a href="#" data-toggle="modal" data-target="#myModal">Login</a></li>
                 {{--<li class="dropdown">--}}
                     {{--<a href="movie-list.html">Movies</a>--}}
                     {{--<ul class="dropdown-menu">--}}
